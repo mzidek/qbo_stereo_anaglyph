@@ -75,7 +75,7 @@ if __name__ == '__main__':
     import optparse
     import time
     from sensor_msgs.msg import Image
-    from cv_bridge.cv_bridge import CvBridge, CvBridgeError
+    from cv_bridge import CvBridge, CvBridgeError
 
     p = optparse.OptionParser()
     p.add_option('-c', action='store', default='/wide_stereo', type='string', dest='cam', help='which camera to listen to')

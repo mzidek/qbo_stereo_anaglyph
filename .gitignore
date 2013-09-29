@@ -2,3 +2,4 @@ build
 bin
 srv_gen
 msg_gen
+*.pyc

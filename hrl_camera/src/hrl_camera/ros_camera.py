@@ -18,7 +18,7 @@ import time
 from std_msgs.msg import String
 from sensor_msgs.msg import Image
 from sensor_msgs.msg import CameraInfo
-from cv_bridge.cv_bridge import CvBridge, CvBridgeError
+from cv_bridge import CvBridge, CvBridgeError
 import hrl_lib.rutils as ru
 import polled_camera.srv as ps
 import numpy as np
